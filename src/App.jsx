@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <div className="container-fluid">
+        <div className="container-fluid overflow-hidden">
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
